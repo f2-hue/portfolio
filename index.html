@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fahmi-Portfolio</title>
+    <link 
+rel="stylesheet" 
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>My Portfolio</h1>
+
+        <nav>
+            
+                <a href="#about">About</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact">Contact</a>
+            
+        </nav>
+    </header>
+    <main>
+        <section id="about">
+            <h2>About Me</h2>
+            <img src="profile.jpg" alt="Profile Picture">
+            <p>
+               Hello, I am a beginner web developer learning HTML, CSS, and JavaScript.
+            </p>
+        </section>
+
+        <section id="projects">
+            <h2>Projects</h2>
+            <div class="project-container">
+                <article class="project-card">
+                    <h3>gym system</h3>
+                    <p>
+                        A gym management system that allows users to track their workouts, manage memberships, and schedule classes.
+                    </p>
+                    <ul class="project-tags">
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>JavaScript</li>
+                    </ul>
+                </article>
+                <article class="project-card">
+                    <h3>e-commerce website</h3>
+                    <p>
+                        An e-commerce website that allows users to browse products, add items to their cart, and complete purchases.
+                    </p>
+                    <ul class="project-tags">
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>JavaScript</li>
+                    </ul>
+                </article>
+                <article class="project-card">
+                    <h3>personal portfolio</h3>
+                    <p>
+                        A personal portfolio website that showcases my skills, experience, and projects.
+                    </p>
+                    <ul class="project-tags">
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>JavaScript</li>
+                    </ul>
+                </article>
+            </div>
+        </section>
+
+        <section id="contact">
+        <h2>Contact</h2>
+        <form id="Contact Me">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <button type="submit">Send</button>
+        </form>
+        <p>Email: fahad@example.com</p>
+    </section>
+        </main>
+    
+<footer>
+
+    <p>&copy; 2026 My Portfolio</p>
+
+    <div class="social-links">
+
+        <a href="#">
+            <i class="fa-brands fa-github"></i>
+        </a>
+
+        <a href="#">
+            <i class="fa-brands fa-linkedin"></i>
+        </a>
+
+        <a href="#">
+            <i class="fa-brands fa-twitter"></i>
+        </a>
+
+    </div>
+
+</footer>
+<script src="app.js"></script>
+</body>
+</html>
