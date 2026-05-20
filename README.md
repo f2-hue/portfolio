@@ -6,3 +6,7 @@ it explain about my skills,my project that may finalised do && my experience on 
 
 ## Link for my portfolio web site
 https://f2-hue.github.io/portfolio/
+
+## Student Information
+NAME:FAHAD MOHAMEDI IDRISA
+REGISTRATION NUMBER:24BCS005
